@@ -183,10 +183,10 @@ function tucker_toys_awards_page_shortcode(){
 	return $output;
 }
 
-function add_award_templates_live_composer_support( $cpt ) {
+/* function add_award_templates_live_composer_support( $cpt ) {
 
 	$cpt['tucker_awards'] = 'Award';
 
 	return $cpt;
 
-} add_filter( 'dslc_post_templates_post_types', 'add_award_templates_live_composer_support' );
+} add_filter( 'dslc_post_templates_post_types', 'add_award_templates_live_composer_support' ); */
